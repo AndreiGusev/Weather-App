@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "City"; ObjectID = "0nS-rG-8nh"; */
+"0nS-rG-8nh.text" = "City";
+
+/* Class = "UILabel"; text = "99"; ObjectID = "8U6-k5-Tkg"; */
+"8U6-k5-Tkg.text" = "99";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "CRP-qR-gwV"; */
+"CRP-qR-gwV.text" = "Title";
+
+/* Class = "UILabel"; text = "99"; ObjectID = "NOq-TF-l1o"; */
+"NOq-TF-l1o.text" = "99";
+
+/* Class = "UILabel"; text = "H:"; ObjectID = "Vxi-3O-hZf"; */
+"Vxi-3O-hZf.text" = "H:";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "W3d-BH-SY0"; */
+"W3d-BH-SY0.text" = "Title";
+
+/* Class = "UILabel"; text = "L:"; ObjectID = "WFo-3j-nxf"; */
+"WFo-3j-nxf.text" = "L:";
+
+/* Class = "UILabel"; text = "Feels like"; ObjectID = "WN0-fX-jtI"; */
+"WN0-fX-jtI.text" = "Feels like";
+
+/* Class = "UILabel"; text = "23"; ObjectID = "Z7S-eh-eFh"; */
+"Z7S-eh-eFh.text" = "23";
+
+/* Class = "UISearchBar"; placeholder = "Search Location"; ObjectID = "aXL-NY-oac"; */
+"aXL-NY-oac.placeholder" = "Search Location";
+
+/* Class = "UILabel"; text = "99"; ObjectID = "cAd-Gx-DPG"; */
+"cAd-Gx-DPG.text" = "99";
+
+/* Class = "UILabel"; text = "Weather status"; ObjectID = "cSd-Rx-nKW"; */
+"cSd-Rx-nKW.text" = "Weather status";
+
+/* Class = "UIButton"; normalTitle = "Location"; ObjectID = "hbD-g8-O0k"; */
+"hbD-g8-O0k.normalTitle" = "Location";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iyy-6W-wBI"; */
+"iyy-6W-wBI.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "v0S-qF-5gw"; */
+"v0S-qF-5gw.normalTitle" = "Search";

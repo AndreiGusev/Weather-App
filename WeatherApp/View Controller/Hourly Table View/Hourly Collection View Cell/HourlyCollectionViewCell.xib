@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HourlyCollectionViewCell" id="CkG-zs-HwZ" customClass="HourlyCollectionViewCell" customModule="WeatherApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="7ll-cK-sah">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgx-Kb-cxg">
+                        <rect key="frame" x="8" y="8" width="54" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="aXx-SN-cTu"/>
+                            <constraint firstAttribute="width" constant="54" id="q5I-H0-5Ec"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0r-XX-UvH">
+                        <rect key="frame" x="16" y="33" width="38" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="Fr1-nk-99m"/>
+                            <constraint firstAttribute="width" constant="38" id="Zzp-2K-DIg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v3y-z2-S5m">
+                        <rect key="frame" x="20" y="53" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="H3N-9D-4w5"/>
+                            <constraint firstAttribute="height" constant="30" id="hIj-7M-Q7p"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aei-g9-bgo">
+                        <rect key="frame" x="14" y="90" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="hYK-m4-1wK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="v3y-z2-S5m" firstAttribute="centerX" secondItem="7ll-cK-sah" secondAttribute="centerX" id="CUY-4z-u6o"/>
+                    <constraint firstItem="rgx-Kb-cxg" firstAttribute="top" secondItem="7ll-cK-sah" secondAttribute="top" constant="8" id="DIg-MM-OQ0"/>
+                    <constraint firstItem="i0r-XX-UvH" firstAttribute="top" secondItem="rgx-Kb-cxg" secondAttribute="bottom" constant="5" id="Idb-zE-mrY"/>
+                    <constraint firstItem="v3y-z2-S5m" firstAttribute="top" secondItem="rgx-Kb-cxg" secondAttribute="bottom" constant="25" id="K9d-hK-uxU"/>
+                    <constraint firstItem="aei-g9-bgo" firstAttribute="top" secondItem="v3y-z2-S5m" secondAttribute="bottom" constant="7" id="gR1-bo-IUi"/>
+                    <constraint firstItem="i0r-XX-UvH" firstAttribute="centerX" secondItem="7ll-cK-sah" secondAttribute="centerX" id="ult-3Z-96F"/>
+                    <constraint firstItem="rgx-Kb-cxg" firstAttribute="centerX" secondItem="7ll-cK-sah" secondAttribute="centerX" id="vjL-U4-MKy"/>
+                    <constraint firstItem="aei-g9-bgo" firstAttribute="centerX" secondItem="7ll-cK-sah" secondAttribute="centerX" id="wNZ-00-BZo"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="humidityLabel" destination="i0r-XX-UvH" id="9p4-NO-xlS"/>
+                <outlet property="iconImageView" destination="v3y-z2-S5m" id="0YF-Qa-MJx"/>
+                <outlet property="tempLabel" destination="aei-g9-bgo" id="Y7V-Fv-owD"/>
+                <outlet property="timeLabel" destination="rgx-Kb-cxg" id="urF-5R-WW6"/>
+            </connections>
+            <point key="canvasLocation" x="101" y="199"/>
+        </collectionViewCell>
+    </objects>
+</document>
